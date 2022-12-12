@@ -1,0 +1,459 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.opaCity{
+    background-color: rgba(0,0,0, 1);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: block;
+} 
+.bars i{
+    position: absolute;
+    z-index: 999;
+    color: white;
+    font-size: 20px;
+    margin: 40px;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: rgba(175, 169, 169, 0.1);
+}
+
+
+#body__home{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/bcgimage-bg.jpeg');
+    opacity: .2;
+  }
+  #body__home img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid gray;
+    margin-left: 25%;
+    position: relative;
+    margin-top: 15%;   
+  }
+  .body__home__text{
+    color: white;
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    z-index: 9999;
+    margin-left: 45%;
+    margin-top: -250px;
+    line-height: 30px;
+  }
+  #body__home__btn__more{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid rgb(39, 107, 255);
+    background-color: rgb(39, 107, 255);
+    color: white;
+    z-index: 9999999;
+    margin-left: 45%;
+    margin-top: -5%;
+
+  }
+  #body__home__btn__port{
+    
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: black;
+    color: rgb(39, 107, 255);
+    border: 1px solid rgb(39, 107, 255);
+    z-index: 9999999;
+    margin-left: 62%;
+    margin-top: -5%;
+
+  }
+  .setting i{
+    position: absolute;
+    z-index: 999;
+    color: black;
+    font-size: 20px;
+    margin-top: -20%;
+    margin-left: 96.3%;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+  }
+
+      #body__home__btn__more:hover {
+        background-color: gray;
+        border: 1px solid gray;
+      }
+      #body__home__btn__port:hover {
+        background-color: rgb(39, 107, 255);
+        color: white;
+      }
+
+
+        
+      
+ #home{
+  z-index: 999;
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: rgba(175, 169, 169, 0.1);
+  position: absolute;
+
+}
+#home:hover{
+  color: rgb(39, 107, 255);
+  background-color: rgb(61, 60, 60);
+}
+#about:hover{
+  color: rgb(39, 107, 255);
+  background-color: rgb(61, 60, 60);
+}
+#port:hover{
+  color: rgb(39, 107, 255);
+  background-color: rgb(61, 60, 60);
+}
+#contact:hover{
+  color: rgb(39, 107, 255);
+  background-color: rgb(61, 60, 60);
+}
+#blog:hover{
+  color: rgb(39, 107, 255);
+   background-color: rgb(61, 60, 60);
+}
+#about {
+  margin-left: 90px;
+  margin-top: 10px;
+  z-index: 999;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: rgba(175, 169, 169, 0.1);
+}
+#port {
+  margin-top:10px;
+  margin-left: 170px;
+  z-index: 999;
+  color: white;
+  font-size: 20px;
+position: absolute;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: rgba(175, 169, 169, 0.1);
+
+}
+#contact {
+  margin-top: 10px;
+  margin-left: 250px;
+  z-index: 999;
+  color: white;
+  font-size: 20px;
+position: absolute;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: rgba(175, 169, 169, 0.1);
+}
+#blog {
+   margin-top: 10px;
+   z-index: 999;
+   margin-left: 340px;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: rgba(175, 169, 169, 0.1);
+}
+
+.body__port{
+  width: 100%;
+  height: 100vh;
+  background-color: #343a40;
+  display: none;
+}
+#txt1{
+  margin-left: 40%;
+  font-size: 40px;
+  padding:5px;
+  color: white;
+  margin-top: 40px;
+}
+#txt2{
+  font-size: 40px;
+  color: rgb(54, 162, 234);
+  margin-top: 40px;
+}
+
+
+#txt3{
+  color: white;
+  margin-left: 30%;
+}
+.card1{
+  width: 350px;
+  height: 200px;
+  background-color:rgb(54, 162, 234) ;
+  border-radius: 10px;
+  margin: 10px;
+
+}
+.card2{
+  width: 350px;
+  height: 200px;
+  background-color:rgb(54, 162, 234) ;
+    border-radius: 10px;
+  margin: 10px;
+}
+.card3{
+  width: 350px;
+  height: 200px;
+  background-color:rgb(54, 162, 234) ;
+  border-radius: 10px;
+  margin: 10px;
+}
+.card4{
+  width: 350px;
+  height: 200px;
+  background-color:rgb(54, 162, 234) ;
+  border-radius: 10px;
+  margin: 10px;
+}
+.card5{
+  width: 350px;
+  height: 200px;
+  background-color:rgb(54, 162, 234) ;
+  border-radius: 10px;
+  margin: 10px;
+}
+.card6{
+  width: 350px;
+  height: 200px;
+  background-color:rgb(54, 162, 234) ;
+  border-radius: 10px;
+  margin: 10px;
+}
+.card7{
+  width: 350px;
+  height: 200px;
+  background-color:rgb(54, 162, 234) ;
+  border-radius: 10px;
+  margin: 10px;
+}
+.card8{
+  width: 350px;
+  height: 200px;
+  background-color:rgb(54, 162, 234) ;
+  border-radius: 10px;
+  margin: 10px;
+}
+.card9{
+  width: 350px;
+  height: 200px;
+  background-color:rgb(54, 162, 234) ;
+  border-radius: 10px;
+  margin: 10px;
+}
+.cards1{
+  width: 100%;
+  height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+
+
+}
+.cards2{
+  width: 100%;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.cards3{
+  width: 100%;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.card1 img{
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+
+}
+.card2 img{
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+  
+}
+.card3 img{
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+}
+.card4 img{
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+}
+.card5 img{
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+}
+.card6 img{
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+}
+.card7 img{
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+}
+.card8 img{
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+}
+.card9 img{
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+}
+.card1 img:hover{
+  display: none; 
+}
+.card2 img:hover{
+  display: none; 
+}
+.card3 img:hover{
+  display: none; 
+}
+.card4 img:hover{
+  display: none; 
+}
+.card5 img:hover{
+  display: none; 
+}
+.card6 img:hover{
+  display: none; 
+}
+.card7 img:hover{
+  display: none; 
+}
+.card8 img:hover{
+  display: none; 
+}
+.card9 img:hover{
+  display: none; 
+}
+
+.body__blog{
+  background-color: #343a40;
+  width: 100%;
+  height: 150vh;
+  display: none;
+}
+.body__blog div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+#txt_1{
+  color: white;
+  font-size: 40px;
+  margin: 10px;
+
+}
+#txt_2{
+  font-size: 40px;
+  color: rgb(54, 162, 234);
+  
+
+}
+#txt_3{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+}
+.cards_1{
+  width: 100%;
+  height: 500px;
+  display: flex;
+
+  margin: 20px 0px;
+}
+.cards_2{
+  width: 100%;
+  height: 500px;
+  display: flex;
+
+}
+.card_1{
+   width: 600px;
+   height: 450px;
+   margin: 20px;
+}
+.card_2{
+  width: 600px;
+  height: 450px;
+  margin: 20px;
+  
+}
+.card_3{
+  width: 600px;
+  height: 450px;
+  margin: 20px;
+  
+}
+.card_4{
+  width: 600px;
+  height: 450px;
+  margin: 20px;
+}
+
+.card_1 img{
+  width: 600px;
+  height: 200px;
+  margin-top: -240px;
+
+}
+.card_2 img{
+  width: 600px;
+  height: 200px;
+  margin-top: -240px;
+}
+.card_3 img{
+  width: 600px;
+  height: 200px;
+  margin-top: -240px;
+  
+}
+.card_4 img{
+  width: 600px;
+  height: 200px;
+  margin-top: -240px;
+}
+
+/* display olan setirler 11 373 184 */
